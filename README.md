@@ -13,6 +13,8 @@ Hey there! Welcome to my cozy corner of the web - a modern, pink-themed portfoli
 * **Easy to Reach**: A friendly contact section for future collaborations 🤝
 * **Modern Glass Look**: Elegant translucent elements throughout the design 🌈
 
+
+
 ## Project Structure
 
 ```
@@ -31,6 +33,9 @@ Hey there! Welcome to my cozy corner of the web - a modern, pink-themed portfoli
 │   │   └── ... (CSS files)
 │   ├── App.js
 │   └── index.js
+├── backend/
+│   ├── main.py
+│   └── requirements.txt
 ├── package.json
 └── tailwind.config.js
 ```
@@ -41,22 +46,44 @@ Hey there! Welcome to my cozy corner of the web - a modern, pink-themed portfoli
 
 * Node.js (v14 or higher)
 * npm or yarn
+* Python 3.8+
+* Uvicorn
 
 ### Setting Things Up
 
-1. First, grab the code:
+1. Clone the repository:
    ```bash
    git clone https://github.com/Chungus1310/chuns-cute-portfolio-template.git
    cd chuns-cute-portfolio-template
    ```
 
-2. Install all the goodies:
+2. Set up the Frontend:
    ```bash
    npm install
    ```
 
-3. Fire it up:
+3. Set up the Backend:
    ```bash
+   # Create a virtual environment (optional but recommended)
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+   # Install backend dependencies
+   pip install -r backend/requirements.txt
+   ```
+
+4. Start the Backend Server:
+   ```bash
+   # Navigate to the backend directory
+   cd backend
+
+   # Run the Uvicorn server
+   uvicorn main:app --reload
+   ```
+
+5. Start the Frontend Development Server:
+   ```bash
+   # In a separate terminal, from the project root
    npm start
    ```
 
@@ -101,6 +128,8 @@ Add your awesome projects in `projects.js`:
 * Framer Motion
 * React Icons
 * Tailwind CSS
+* FastAPI
+* Uvicorn
 * PostCSS
 * And some other helpful tools (check package.json for the full list!)
 
