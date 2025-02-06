@@ -1,0 +1,30 @@
+{
+  "short_name": "ChunPortfolio",
+  "name": "Chun Portfolio",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://placehold.co/192x192/ffc0cb/ffffff.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://placehold.co/512x512/ffc0cb/ffffff.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffc0cb",
+  "background_color": "#fff0f5",
+  "description": "Chun's Portfolio - Developer & Tech Enthusiast",
+  "orientation": "portrait",
+  "prefer_related_applications": false
+}
