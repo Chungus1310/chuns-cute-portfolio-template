@@ -1,19 +1,23 @@
 # Chun's Cute Portfolio Template ✨
 
-Hey there! Welcome to my cozy corner of the web - a modern, pink-themed portfolio template built with React and Tailwind CSS. It's perfect for developers who want to showcase their work with a dash of cuteness! 🌸
+A modern, pink-themed portfolio template built with React and Tailwind CSS, perfect for developers showcasing their work with style! 🌸
+
+## Take a Peek! 
+
+### Live Demo Video
+Check out our comprehensive demo on YouTube: 
+[Portfolio Template Walkthrough](https://www.youtube.com/watch?v=3MFW3nE8WpI)
 
 ## Features 
 
-* **Pretty & Customizable**: A soft, pink aesthetic that you can easily make your own! 🎨
-* **Looks Great Everywhere**: Perfectly responsive design that shines on phones, tablets, and desktops 📱
-* **Smooth & Interactive**: Beautiful animations powered by Framer Motion that bring your portfolio to life ✨
-* **Show Off Your Work**: Lovely project cards and detailed pages to highlight your amazing creations 🌟
-* **Skills Display**: A beautiful way to show what you're good at 📊
-* **Eye-Catching Effects**: Fun touches like snowfall and bubble animations to delight visitors ❄️
-* **Easy to Reach**: A friendly contact section for future collaborations 🤝
-* **Modern Glass Look**: Elegant translucent elements throughout the design 🌈
-
-
+* **Pretty & Customizable**: Soft, pink aesthetic you can personalize 🎨
+* **Responsive Design**: Looks great on all devices 📱
+* **Smooth Animations**: Powered by Framer Motion ✨
+* **Project Showcase**: Beautiful cards and detailed pages 🌟
+* **Skills Visualization**: Attractive skills display 📊
+* **Decorative Effects**: Snowfall and bubble animations ❄️
+* **Contact Section**: Easy collaboration 🤝
+* **Modern Design**: Elegant glass morphism elements 🌈
 
 ## Project Structure
 
@@ -25,31 +29,26 @@ Hey there! Welcome to my cozy corner of the web - a modern, pink-themed portfoli
 │   ├── components/
 │   │   ├── AboutPage.js
 │   │   ├── ProjectCard.js
-│   │   ├── ProjectsPage.js
-│   │   └── ... (other components)
+│   │   └── ... 
 │   ├── data/
 │   │   └── projects.js
-│   ├── styles/
-│   │   └── ... (CSS files)
-│   ├── App.js
-│   └── index.js
+│   └── ...
 ├── backend/
 │   ├── main.py
 │   └── requirements.txt
-├── package.json
 └── tailwind.config.js
 ```
 
-## Let's Get Started! 
+## Getting Started 
 
-### What You'll Need
+### Requirements
 
-* Node.js (v14 or higher)
+* Node.js (v14+)
 * npm or yarn
 * Python 3.8+
 * Uvicorn
 
-### Setting Things Up
+### Installation Steps
 
 1. Clone the repository:
    ```bash
@@ -57,107 +56,76 @@ Hey there! Welcome to my cozy corner of the web - a modern, pink-themed portfoli
    cd chuns-cute-portfolio-template
    ```
 
-2. Set up the Frontend:
+2. Set up Frontend:
    ```bash
    npm install
    ```
 
-3. Set up the Backend:
+3. Set up Backend:
    ```bash
-   # Create a virtual environment (optional but recommended)
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
-   # Install backend dependencies
+   source venv/bin/activate
    pip install -r backend/requirements.txt
    ```
 
-4. Start the Backend Server:
+4. Start Backend Server:
    ```bash
-   # Navigate to the backend directory
    cd backend
-
-   # Run the Uvicorn server
    uvicorn main:app --reload
    ```
 
-5. Start the Frontend Development Server:
+5. Start Frontend:
    ```bash
-   # In a separate terminal, from the project root
    npm start
    ```
 
-## Make It Yours! 
+## Customization
 
-### Your Personal Touch
+### Personal Details
+Edit `AboutPage.js` to update:
+* Profile picture
+* Bio
+* Skills
+* Contact info
 
-Pop open `AboutPage.js` to add:
-* Your lovely profile picture
-* A bit about yourself
-* Your amazing skills
-* How to reach you
-
-### Your Projects
-
-Add your awesome projects in `projects.js`:
+### Projects
+Modify `projects.js`:
 
 ```javascript
 {
   id: "project-id",
   title: "Project Name",
   description: "Short description",
-  longDescription: "Detailed description",
   technologies: ["Tech1", "Tech2"],
   imageUrl: "image-url",
-  githubUrl: "github-repo-url",
-  demoUrl: "live-demo-url",
-  type: "featured" // or "other"
+  githubUrl: "github-repo-url"
 }
 ```
 
-### Style It Up
-
-* Colors: Tweak `tailwind.config.js` to match your vibe
-* CSS: Jazz up the files in `styles`
-* Animations: Play with Framer Motion settings in the components
-
-## Cool Tech We're Using
+## Technologies
 
 * React
-* React Router DOM
-* Framer Motion
-* React Icons
 * Tailwind CSS
 * FastAPI
 * Uvicorn
-* PostCSS
-* And some other helpful tools (check package.json for the full list!)
+* Framer Motion
 
-## Want to Help? 
-
-We'd love your contributions! Here's how:
+## Contributing
 
 1. Fork the repo
-2. Create your feature branch
-3. Add your magic
-4. Push your changes
-5. Open a Pull Request
+2. Create a feature branch
+3. Commit changes
+4. Push to branch
+5. Open Pull Request
 
 ## License
 
-Feel free to use this template! It's open source under the MIT License.
+MIT License
 
-## Made With Love
+## Contact
 
-Created by [Chun](https://github.com/Chungus1310) 💖
-
-## Need Help?
-
-Don't be shy! You can:
-* Open an issue
-* Join our Discord server
-* Drop me an email
+Created by [Chun](https://github.com/Chungus1310)
 
 ---
 
-If this template helps you create something awesome, I'd love a ⭐ on the repo! Happy coding! ✨
+Enjoy the template! ⭐
